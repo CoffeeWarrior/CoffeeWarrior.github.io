@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    width: 33.33%;
+    border-left: 1px solid rgb(226, 169, 45);
+}
+
+li:hover{
+    color: white;
+    background-color: rgb(226, 169, 45);
+}
