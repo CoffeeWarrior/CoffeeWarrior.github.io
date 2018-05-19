@@ -1,3 +1,15 @@
+/*
+    primary color #9966CC 
+
+    primary color dark #9F2DBD
+
+    primary color light #b298dc
+
+    dark blue/grey-ish: #b8d0eb
+
+    light blue: #b9faf8
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +23,8 @@ div{
 .DevitoPhoto{
     background-image: linear-gradient(
         to bottom,
-         rgba(226, 169, 45, 0.6),
-         rgba(50, 46, 181, 0.6)), url("../../images/DannyDevitoEgg.jpg");
+        rgba(185,250,248, 0.6),
+        rgba(184,208,235, 0.6)), url("../../images/DannyDevitoEgg.jpg");
     background-size:cover;
     background-position: top;
     position: relative;
@@ -22,10 +34,10 @@ div{
 }
 
 .header1{
-    padding: 0 30vw;
-    display: block;
-    border-bottom: 1px solid rgb(226, 169, 45);
+    text-align: center;
+    margin: auto;
     font-size: 4rem;
     font-family: "Indie Flower";
-    color: salmon;
+    color: #9F2DBD;
 }
+
