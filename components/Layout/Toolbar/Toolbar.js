@@ -1,11 +1,11 @@
 import React from "react";
-import ListElement from "./ListElement/ListElement";
+import NavigationItem from "./NavigationItem/NavigationItem";
 import "./Toolbar.css";
 const toolbar = (props) => {
     const listElements = [];
 
     for(var i in props.listed){
-        listElements.push(<ListElement inputValue={props.listed[i]}></ListElement>);
+        listElements.push(<NavigationItem link = {props.listed[i]}>{props.listed[i]}</NavigationItem>);
     }
 
     return(
