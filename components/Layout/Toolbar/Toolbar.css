@@ -11,7 +11,7 @@ ul {
 li{
     display: inline-block;
     text-align: center;
-    width: 33.33%;
+    width: 25%;
 }
 
 li:hover{

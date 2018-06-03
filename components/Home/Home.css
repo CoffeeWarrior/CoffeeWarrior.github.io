@@ -1,0 +1,10 @@
+.Section{
+    background-color: rgba(155,155,155, .35);
+    float: right;
+    display: inline-block;
+    width: 30%;
+    margin-top: 3rem;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
