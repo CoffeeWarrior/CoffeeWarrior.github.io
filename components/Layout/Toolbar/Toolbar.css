@@ -6,6 +6,8 @@ ul {
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    border-radius: .5rem;
+    overflow: hidden;
 }
 
 
