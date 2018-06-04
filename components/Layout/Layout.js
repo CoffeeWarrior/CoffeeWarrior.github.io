@@ -3,7 +3,7 @@ import Aux from "../../hoc/Auxiliary";
 import classes from "./Layout.css";
 import Toolbar from "./Toolbar/Toolbar";
 const layout = ( props ) => {
-    const toolText = ["Home", "Danny Me" , "Bio", "News"];
+    const toolText = ["Home", "Bio", "News", "About"];
     
     return(
         <Aux>

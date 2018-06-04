@@ -15,7 +15,7 @@
 }
 
 .DannyBio:hover{
-    transform: scale(1.2) translateY(3vh);
+    transform: scale(1.1) translateY(2vh);
     border: 2px solid #b298dc;
 }
 
