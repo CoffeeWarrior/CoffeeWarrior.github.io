@@ -1,0 +1,27 @@
+.utility{
+    align-content: center;
+}
+
+.DannyBio{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 65vw;
+    margin: 15vh auto 0;
+    line-height: 120%;
+    background-color: rgba(155,155,155, .35);
+    border: 1px solid #b298dc;
+    border-radius: 3px;
+    transition: 2s ease-in-out;
+}
+
+.DannyBio:hover{
+    transform: scale(1.2);
+    border: 2px solid #b298dc;
+}
+
+.h1{
+    font-family: "Indie Flower";
+    text-align: center;
+    color: #9F2DBD;
+    text-decoration: underline;
+}

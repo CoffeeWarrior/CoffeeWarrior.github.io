@@ -7,7 +7,9 @@ section{
     width: 40vw;
     margin-left: 10vh;
     border: 1px solid black;
+    border-radius: 3px;
 }
+
 
 .h1{
     text-align: center;

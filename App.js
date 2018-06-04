@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
+import Bio from "./components/Bio/Bio";
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 
 class App extends Component {
@@ -10,7 +11,8 @@ class App extends Component {
         <Layout>
           <Switch>
             <Route path="/" exact component={Home}/>
-            <Redirect to="/"/> 
+            <Route path="/Bio" component={Bio}/>
+            <Redirect to={"/"}/>
           </Switch>
         </Layout>
       </div>

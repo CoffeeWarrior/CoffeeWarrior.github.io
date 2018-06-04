@@ -7,14 +7,16 @@
 
 .Section{
     float: right;
-    height: 45vh;
-    width: 40vw;
     font-size: 1.09rem;
     margin-right: 5vw;
+    overflow: hidden;
 }
 
-p{
+.MyDannyEssay{
     text-align: center;
+    max-height: 45vh;
+    max-width: 40vw;
     background-color: rgba(155,155,155, .35);
     border: 1px solid #b298dc;
+    border-radius: 3px;
 }

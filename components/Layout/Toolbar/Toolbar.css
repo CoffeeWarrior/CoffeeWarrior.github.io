@@ -17,7 +17,13 @@ li{
     width: 25%;
 }
 
+
+
 li:hover{
     color: white;
     background-color: rgba(159,45,189,.5);
+}
+
+li:active{
+    color: #b8d0eb;
 }
