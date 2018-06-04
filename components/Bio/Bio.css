@@ -6,7 +6,7 @@
     font-size: 1.2rem;
     text-align: center;
     width: 65vw;
-    margin: 15vh auto 0;
+    margin: 10vh auto 0;
     line-height: 120%;
     background-color: rgba(155,155,155, .35);
     border: 1px solid #b298dc;
@@ -15,7 +15,7 @@
 }
 
 .DannyBio:hover{
-    transform: scale(1.2);
+    transform: scale(1.2) translateY(3vh);
     border: 2px solid #b298dc;
 }
 

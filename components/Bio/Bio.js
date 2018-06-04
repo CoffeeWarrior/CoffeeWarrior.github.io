@@ -24,7 +24,7 @@ class Bio extends Component{
                 
                 <div className={classes.utility}>
                     
-                    <p className={classes.DannyBio}><h1 className={classes.h1}>Danny Bio Courtesy of Wikipedia</h1><br/>{this.state.dannyWiki}</p>
+                    <p className={classes.DannyBio}><br/><h1 className={classes.h1}>Danny Bio Courtesy of Wikipedia</h1><br/>{this.state.dannyWiki}</p>
                 </div>
             </Aux>
         );
