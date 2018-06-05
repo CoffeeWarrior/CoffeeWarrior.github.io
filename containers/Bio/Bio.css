@@ -25,3 +25,18 @@
     color: #9F2DBD;
     text-decoration: underline;
 }
+
+.wikiLink {
+    font-size: 1.3rem;
+    margin: 5rem;
+    text-align: center;
+}
+
+.wikiLink a{
+    text-decoration: none;
+}
+
+.wikiLink a:hover{
+    text-decoration: underline;
+}
+

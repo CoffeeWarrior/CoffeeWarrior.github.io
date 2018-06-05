@@ -3,3 +3,22 @@
     color: inherit;
     display: block;
 }
+
+
+
+.li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+
+
+.li:hover{
+    color: white;
+    background-color: rgba(159,45,189,.5);
+}
+
+.li:active{
+    color: #b8d0eb;
+}

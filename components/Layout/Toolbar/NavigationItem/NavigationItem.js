@@ -4,7 +4,7 @@ import classes from "./NavigationItem.css"
 
 const navigationItem = (props) => {
     return(
-        <li>
+        <li className={classes.li}>
         <NavLink className = {classes.NavItem}
         to={"/" + props.link}>{props.children}</NavLink>
         </li>

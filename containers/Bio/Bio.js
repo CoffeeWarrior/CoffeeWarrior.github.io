@@ -21,11 +21,16 @@ class Bio extends Component{
     render(){
         return(
             <Aux>
-                
                 <div className={classes.utility}>
-                    
-                    <p className={classes.DannyBio}><br/><h1 className={classes.h1}>Danny Bio Courtesy of Wikipedia</h1><br/>{this.state.dannyWiki}</p>
+                    <p className={classes.DannyBio}>
+                        <br/>
+                        <h1 className={classes.h1}>Danny Bio Courtesy of Wikipedia</h1>
+                        <br/>
+                        {this.state.dannyWiki}
+                    </p>
                 </div>
+
+                <div className={classes.wikiLink}><a href="https://en.wikipedia.org/wiki/Danny_DeVito">read more of dannys wiki here</a></div> 
             </Aux>
         );
     }

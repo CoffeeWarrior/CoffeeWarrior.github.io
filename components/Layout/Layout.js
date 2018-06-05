@@ -7,7 +7,7 @@ const layout = ( props ) => {
     
     return(
         <Aux>
-            <div className={classes.DevitoPhoto}>
+            <div>
                 <h1 className={classes.header1}>I love you Danny</h1>
                 <Toolbar listed={toolText}/>
                 {/*toolbar accepts an object and will print out the keys

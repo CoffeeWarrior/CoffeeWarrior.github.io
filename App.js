@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
-import Bio from "./components/Bio/Bio";
+import Bio from "./containers/Bio/Bio";
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
-import News from "./components/News/News";
+import News from "./containers/News/News";
 
 class App extends Component {
   render() {

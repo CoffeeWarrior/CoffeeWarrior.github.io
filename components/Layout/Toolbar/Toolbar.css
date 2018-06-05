@@ -1,4 +1,4 @@
-ul {
+.ul {
     list-style-type: none;
     font-size: 1.5rem;
     border: 2px solid rgba(159,45,189);
@@ -8,22 +8,4 @@ ul {
     margin-bottom: 3rem;
     border-radius: .5rem;
     overflow: hidden;
-}
-
-
-li{
-    display: inline-block;
-    text-align: center;
-    width: 25%;
-}
-
-
-
-li:hover{
-    color: white;
-    background-color: rgba(159,45,189,.5);
-}
-
-li:active{
-    color: #b8d0eb;
 }

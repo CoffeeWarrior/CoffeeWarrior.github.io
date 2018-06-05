@@ -9,14 +9,21 @@
     float: right;
     font-size: 1.09rem;
     margin-right: 5vw;
-    overflow: hidden;
 }
 
-.MyDannyEssay{
+.MyDannyEssaySection{
     text-align: center;
     max-height: 45vh;
     max-width: 40vw;
     background-color: rgba(155,155,155, .35);
     border: 1px solid #b298dc;
     border-radius: 3px;
+}
+
+.MyDannyEssay{
+    padding: 1rem;
+}
+
+blockquote{
+    margin-top: 1rem;
 }

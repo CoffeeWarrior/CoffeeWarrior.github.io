@@ -1,6 +1,7 @@
 import React from "react";
 import NavigationItem from "./NavigationItem/NavigationItem";
-import "./Toolbar.css";
+import classes from "./Toolbar.css";
+
 const toolbar = (props) => {
     const listElements = [];
 
@@ -9,7 +10,7 @@ const toolbar = (props) => {
     }
 
     return(
-        <ul>
+        <ul className={classes.ul}>
             {listElements}
         </ul>
     );
