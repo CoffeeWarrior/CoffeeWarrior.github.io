@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import Bio from "./containers/Bio/Bio";
 import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 import News from "./containers/News/News";
+import About from "./components/About/About";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <Route path="/" exact component={Home}/>
             <Route path="/Bio" component={Bio}/>
             <Route path="/News" component={News}/>
+            <Route path="/About" component={About}/>
             <Redirect to={"/"}/>
           </Switch>
         </Layout>

@@ -13,8 +13,7 @@
 
 .MyDannyEssaySection{
     text-align: center;
-    max-height: 45vh;
-    max-width: 40vw;
+    width: 40vw;
     background-color: rgba(155,155,155, .35);
     border: 1px solid #b298dc;
     border-radius: 3px;
