@@ -1,0 +1,14 @@
+
+.aboutContainer{
+    margin: 5rem auto;
+    max-height: 45vh;
+    max-width: 65vw;
+    background-color: rgba(155,155,155, .35);
+    border: 1px solid #b298dc;
+    border-radius: 3px;
+}
+
+.about{
+    padding: 1rem;
+    font-size: 1.3rem;
+}

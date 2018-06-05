@@ -1,0 +1,30 @@
+/*
+    primary color #9966CC 
+
+    primary color dark #9F2DBD
+
+    primary color light #b298dc
+
+    dark blue/grey-ish: #b8d0eb
+
+    light blue: #b9faf8
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.header1{
+    font-family: "Indie Flower";
+    text-align: center;
+    color: #9F2DBD;
+    margin: auto;
+    font-size: 4rem;
+}
+
