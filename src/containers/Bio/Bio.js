@@ -11,7 +11,6 @@ class Bio extends Component{
         axios.get("https://en.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&exintro=&titles=Danny_DeVito&origin=*")
         .then(
             response => {
-               console.log(response)
                const textAsCode = (response.data.query.pages["104940"].extract.replace(/<(?:.|\n)*?>/gm, ''));
                 this.setState({dannyWiki: textAsCode})
             }

@@ -4,8 +4,8 @@
 
 .DannyBio{
     font-size: 1.2rem;
-    text-align: center;
     width: 65vw;
+    padding: 1rem;
     margin: 10vh auto 0;
     line-height: 120%;
     background-color: rgba(155,155,155, .35);
